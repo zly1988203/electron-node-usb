@@ -1,0 +1,35 @@
+.GrayBtn{  
+  border:none;  
+  height:3.0em;  
+  background-color:#666666;  
+  color:white;  
+  font-size:1.2em;  
+  margin-top:0.5em;  
+  width:100%;  
+  border-radius:1em;  
+}  
+.ChaBtn{  
+  border:none;  
+  height:3.0em;  
+  background-color:#3E8CD0;  
+  color:white;  
+  font-size:1.2em;  
+  margin-top:0.5em;  
+  width:100%;  
+  border-radius:1em;  
+}  
+
+.ChaBtnSmall{  
+  border:none;  
+  height:2.5em;  
+  background-color:#FF7D40;  
+  color:white;  
+  font-size:1.0em;  
+  margin-top:0.5em;  
+  width:100%;  
+  border-radius:1em;  
+}  
+
+html {
+  overflow-y:scroll;
+}

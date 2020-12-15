@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta http-equiv="Content-Language" content="zh-cn">
+     <link href="css/Cha.css" rel="stylesheet">  
+  </head>
+  <body >
+ 
+    <p>锁的ID：:&nbsp;
+                <input type="text" id="IDTxt" size="74" name="T3"></p>
+	<p></p>
+	<p>锁的版本<input type="text" id="VerTxt" size="11" name="T4"></p>
+<p>锁的扩展版本<input type="text" id="VerExTxt" size="11" name="T5"></p>
+	<table border="1" width="64%" id="table25">
+		<tr>
+			<td width="289">
+                            <input type="button" value="查找指定的加密锁（使用普通算法一）" id="FindPort_2Bnt" class="ChaBtnSmall"
+                                tabindex="3"></td>
+			<td width="30">
+                            </td>
+			<td width="278">
+                            <input type="button" value="查找指定的加密锁（使用普通算法二）" id="FindPort_3Bnt"  class="ChaBtnSmall"
+                                tabindex="4"></td>
+		</tr>
+	</table>
+	<p></p>
+<p>以下是普通算法一：</p>
+		<table border="1" width="44%" id="table34">
+			<tr>
+				<td width="216">
+                            <input type="button" value="让加密锁进行加密运算" id="sWriteExBnt"   class="ChaBtnSmall"
+                                tabindex="2"></td>
+				<td>
+                            </td>
+				<td width="182">
+                            <input type="button" value="让加密锁进行解密运算" id="sWrite_2ExBnt" class="ChaBtnSmall" tabindex="1"></td>
+			</tr>
+			</table>
+<p>以下是普通算法二：</p>
+		<table border="1" width="44%" id="table35">
+			<tr>
+				<td width="216">
+                            <input type="button" value="让加密锁进行加密运算" id="sWriteEx_NewBnt"   class="ChaBtnSmall"
+                                tabindex="2"></td>
+				<td>
+                            </td>
+				<td width="182">
+                            <input type="button" value="让加密锁进行解密运算" id="sWrite_2Ex_NewBnt" class="ChaBtnSmall" tabindex="1"></td>
+			</tr>
+			</table>
+		<p>以下是对储存器的操作：</p>
+<table border="1" width="55%" id="table31">
+	<tr>
+		<td width="507" align="center">
+		<table border="1" width="99%" id="table32">
+			<tr>
+				<td width="216">
+                            <input type="button" value="写多个字节" id="YWriteBnt"   class="ChaBtnSmall"
+                                tabindex="2"></td>
+				<td>
+                            <input type="button" value="读取多个字节" id="YReadBnt" class="ChaBtnSmall" tabindex="1"></td>
+			</tr>
+			<tr>
+				<td width="216">
+                            <input type="button" value="写字符串" id="YWriteStringBnt" class="ChaBtnSmall" tabindex="1"></td>
+				<td>
+                            <input type="button" value="读字符串" id="YReadStringBnt"   class="ChaBtnSmall"
+                                tabindex="2"></td>
+			</tr>
+			<tr>
+				<td width="216">
+                            <input type="button" value="写字符串(带长度)" id="YWriteStringWithLenBnt"   class="ChaBtnSmall"
+                                tabindex="2"></td>
+				<td>
+                            <input type="button" value="读字符串(带长度)" id="YReadStringWithLenBnt" class="ChaBtnSmall" tabindex="1"></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	</table>
+	<p>增强算法一：</p>
+	<table border="1" width="65%" id="table26">
+		<tr>
+			<td width="138">
+                            <input type="button" value="设置增强算法密钥" id="SetCal_2Bnt"  class="ChaBtnSmall"
+                                tabindex="2" ></td>
+			<td>
+                            <input type="button" value="对字符串进行加密" id="EncStringBnt" class="ChaBtnSmall" tabindex="1"></td>
+			<td>
+                            <input type="button" value="对二进制数据进行加密" id="CalBnt" class="ChaBtnSmall" tabindex="1"></td>
+		</tr>
+	</table>
+	<p>增强算法二：</p>
+	<table border="1" width="65%" id="table36">
+		<tr>
+			<td width="138">
+                            <input type="button" value="设置增强算法密钥" id="SetCal_NewBnt"  class="ChaBtnSmall"
+                                tabindex="2" ></td>
+			<td>
+                            <input type="button" value="对字符串进行加密" id="EncString_NewBnt" class="ChaBtnSmall" tabindex="1"></td>
+			<td>
+                            <input type="button" value="对二进制数据进行加密" id="Cal_NewBnt" class="ChaBtnSmall" tabindex="1"></td>
+		</tr>
+	</table>
+
+	<p></p>
+<table border="1" width="64%" id="table28">
+	<tr>
+		<td>
+                <input type="button" value="初始化" id="ReSetBnt"
+                     class="ChaBtn" tabindex="5"></td>
+		<td>
+                </td>
+		<td width="348">
+                <input type="button" value="SM2国密算法测试" id="Sm2TestBnt"
+                     class="ChaBtn" tabindex="5"></td>
+	</tr>
+</table>
+             <!--Include ClentChaKey.js-->
+             <script src="ClentKey.js"></script> 
+  </body>
+</html>
